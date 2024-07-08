@@ -280,7 +280,7 @@ body{
     width: 306px;
     height: 306px;
 }
-
+/* Portfolio section style */
 .portfolio{
     width: 1320px;
     display: flex;
@@ -320,4 +320,96 @@ body{
 .portfolio_images .portfolio_image_item img{
     width: 100%;
     height: 100%;
+}
+
+/* Newletter section style */
+.news_letter{
+    max-width: 1320px;
+    display: flex;
+    flex-direction: column;
+    margin: 135px auto 135px auto;
+}
+.news_letter .mail_img{
+    margin-top: 35px;
+    text-align: center;
+}
+.news_letter .mail_form{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0px 0px 25px 0px;
+}
+.mail_form h2.mail_header{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+.mail_form p.mail_text{
+    font-size: 14px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.mail_form form input[type='email']{
+    padding: 12px;
+    width: 220px;
+    border-radius: 10px;
+    border: none;
+}
+.mail_form form{
+    margin-top: 40px;
+}
+.mail_form form button{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Footer section style */
+.footer_container{
+    background-color: rgb(7, 2, 17);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer_top{
+    width: 85%;
+    margin: 60px auto 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.address_text p{
+    color: #fff;
+}
+.contact_text p{
+    color: #fff;
+    position: relative;
+}
+.contact_text img{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: -22px;
+    top: 3px;
+}
+.footer_middle{
+    width: 15%;
+    margin: 0 auto;
+}
+.footer_middle .socials_link{
+    display: flex;
+    justify-content: space-around;
+}
+.footer_middle .socials_link img{
+    width: 40px;
+    height: 45px;
+}
+.footer_bottom{
+    width: 85%;
+    margin: 60px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.rigth_reserve p, .unsubscribe p{
+    color: #fff;
 }
